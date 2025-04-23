@@ -1,0 +1,375 @@
+// <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.instrument-sans-<uniquifier> {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+html,
+body {
+  background: #00080B;
+    font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  color: #006F93;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background: url('/theme-builder-logo.png');
+  width: 56px;
+  height: 56px;
+  background-size: contain;
+  margin-right: auto;
+  flex-basis: 56px;
+  min-width: 56px;
+
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background: #001921;
+  color: #8EDFE5;
+  /* display: block; */
+  height: 72px;
+  /* align-content: center; */
+
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin: 0;
+  justify-content: flex-end;
+  padding: 0 70px;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul a:link,
+nav ul a:visited,
+nav ul a:active,
+nav ul a:hover {
+  color: #8EDFE5;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin: 0;
+  padding: 0 70px;
+  padding-top: 52px;
+}
+
+h1 {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+h2 {
+  color: #1BBFCA;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+footer {
+  background: #006F93;
+  color: #fff;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  padding: 8px 70px;
+  font-weight: 700; 
+}
+
+.try {
+  font-weight: 700; 
+  font-size: 24px;
+}
+
+.switch {
+  border: 2px solid var(--Aqua-100, #E8F9FA);
+  border-radius: 100px;
+  box-shadow: 0px 0px 5px 3px #00000000;
+  box-shadow: 0px 0px 6px 1px #00000000;
+  box-shadow: 0px 0px 6px 1px #00000000;
+  font-weight: 700;  
+  padding: 2px 14px;
+  font-size: 24px;
+  font-size: 19px;
+}
+
+.brushes {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  height: 38px;
+} 
+
+.brushes > .brush {
+  background-image: url('/brush-1.png');
+  width: 38px;
+  height: 52px;
+  background-size: cover;
+  flex-basis: 50px;
+  min-width: 50px;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;margin-left: -4px;
+  margin-top: 3px;
+}
+
+.brushes > .brush:nth-child(2) {
+  background-image: url('/brush-2.png');
+}
+
+.brushes > .brush:nth-child(3) {
+  background-image: url('/brush-3.png');
+}
+
+.brushes > .brush:nth-child(4) {
+  background-image: url('/brush-4.png');
+}
+
+.brushes > .brush:nth-child(5) {
+  background-image: url('/brush-5.png');
+}
+
+.dyslexia-mode {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+}
+
+.toggle {
+  background-image: url('/switch.png');
+  /* width: 38px; */
+  height: 38px;
+  background-size: contain;
+  flex-basis: 48px;
+  min-width: 48px;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.details {
+  background: rgba(0, 0, 0, 0.33);
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0 70px;
+  padding-top: 52px;
+  color: rgba(232, 249, 250, 1);
+  color: rgba(27, 191, 202, 1);
+}
+
+.points {
+  flex-basis: 25%;
+  padding: 72px;
+}
+
+.grade {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #8EDFE5;
+}
+
+.details ul {
+  display: flex;
+  gap: 40px;
+
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #E8F9FA;
+  list-style-type: none;
+  flex-direction: column;
+  padding: 0;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.details ul li {
+  position: relative;
+  line-height: 1.3;
+}
+
+/* .details ul li::before {
+  content: ".";
+  display: block;
+  background: #1BBFCA;
+  overflow: hidden;
+  border-radius: 50px;
+  width: 24px;
+  padding-top: 24px;
+  height: 0;  
+  margin-left: -50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+.details ul li::before {
+  content: ".";
+  display: block;
+  background: url('/check-icon.svg');
+  overflow: hidden;
+  border-radius: 50px;
+  width: 24px;
+  padding-top: 24px;
+  height: 0;  
+  margin-left: -50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.points {
+  background: #001116;
+}
+
+.example {
+  background: #001921;
+}
+
+.example-top {
+  padding: 40px 72px;
+  color: #1BBFCA;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  /* letter-spacing: 1px; */
+}
+
+.example-top.example-top-highlighted {
+  background: #006F93;
+}
+
+.example-top p {
+  margin: 0;
+}
+
+.example {
+  flex-basis: 75%;
+  background: #001921;
+}
+
+.example-body {
+  padding: 0 72px;
+  font-size: 20px;
+  color: #1BBFCA;
+}
+
+.example-body strong {
+  font-weight: 700;
+}
+
+.example-body p:nth-child(1) {
+  
+}
+
+.example-body p:nth-child(2) {
+  font-size: 24px;
+}
+
+.example-body p:nth-child(3) {
+  color: #E8F9FA;
+}
+
+.example-body p:nth-child(4) {
+  
+}
+
+.arrows {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.arrows > a {
+  display: block;
+  background-color: #365F65;
+  overflow: hidden;
+  border-radius: 50px;
+  width: 32px;
+  padding-top: 32px;
+  height: 0;
+  background-image: url('/left-arrow-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.arrows > a.arrows-right {
+  background-color: #8EDFE5;
+  background-image: url('/right-arrow-icon.svg');
+}
+
+.icon {
+  margin-right: 10px;
+}
